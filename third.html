@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/3.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+  <br>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    
+    
+    
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    .login-container {
+        background-color: rgba(51, 103, 59, 0.8);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(46, 17, 29, 0.1);
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        align-content: left;  
+    }
+      
+    form { 
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        color: black;
+    }
+    
+    input {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: rgb(1, 0, 0);
+        cursor: pointer;
+        border: none;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: green;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: darkslategrey;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+    video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1; /* Place the video behind other elements */
+    }
+</style>
+</head>
+    <body >
+
+   
+
+        <video autoplay muted loop>
+            <source src="http://localhost/first.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    <h1 text-align="center">    </h1>
+    <footer>
+        <p>
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <span>Head Office | Karnataka</span><br>
+                <span>Kirloskar Colony, Basaweshwara Nagar, Bengaluru, Karnataka 560064</span><br>
+                <span>Toll FREE: 1600-115-1006 | +91 9845231582</span><br>
+                <span>Email: valiant@nfs.co.in</span>
+            </div>
+        </p>
+    </footer> <div class="login-container" >
+        
+        <form action="http://localhost/fourth.html" method="post">
+            <p class="h5 text-center mb-4"><b><center><h2>SIGN IN</h2></center></b></p>
+
+            <div class="md-form">
+              <i class="fa fa-envelope prefix grey-text"></i>
+              <label for="defaultForm-email">Email</label>
+  
+              <input type="text" id="defaultForm-email" class="form-control">
+            </div><br>
+  
+            <div class="md-form">
+              <i class="fa fa-lock prefix grey-text"></i>
+              <label for="defaultForm-pass"> Password</label>
+  
+              <input type="password" id="defaultForm-pass" class="form-control">
+            </div>
+            <br>
+            <div class="text-center">
+              <button class="btn btn-default">Login</button>
+            </div>
+        </form>
+        <br>
+        
+    </div>
+</body>

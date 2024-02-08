@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <h1 class="white-text">WebPage Vulnerability Scanner<br>
+ <h5 class="white-text">"Our web vulnerability scanning services provide a proactive approach to website security, helping you stay ahead of emerging threats and vulnerabilities."</h5>
+<br>
+<br>
+<br>
+<br>
+ </h1>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>URL Search Box</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+ padding: 20px;
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ }
+
+ form {
+ width: 50%;
+ margin: 0 auto;
+ background-color: rgba(100, 203, 59, 0.8);
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ label {
+ display: block;
+ margin-bottom: 10px;
+ text-align: left;
+ color: #333;
+ }
+
+ input[type="url"] {
+ width: 100%;
+ padding: 5px;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ }
+
+ button[type="submit"] {
+ width: 100%;
+ padding: 5px;
+ background-color: #31d191;
+ color:white;
+ border: none;
+ border-radius: 3px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+
+ button[type="submit"]:hover {
+ background-color: #0056b3;
+ }
+
+ textarea {
+ width: 50%;
+ height: 200px;
+ margin: 0 auto;
+ display: block;
+ resize: none;
+ padding: 10px;
+ border: 1px solid #901c1c;
+ border-radius: 3px;
+ margin-top: 20px;
+ }
+
+ .white-text {
+ color: white;
+ }
+
+ video {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ z-index: -1; /* Place the video behind other elements */
+ }
+ </style>
+</head>
+<body>
+ <video autoplay muted loop>
+ <source src="http://localhost/first.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+ </video>
+ <form action="http://localhost/fifth.php" method="get">
+ <label for="urlInput"><b>Enter URL:</b></label>
+ <input type="url" id="urlInput" name="q" required>
+ <button type="submit"><b>Search</b></button>
+ </form>
+ <textarea placeholder="Leave a comment or suggestion here..."></textarea>
+ <footer>
+ <p>&copy; 2024 Valiant Company Pvt.Ltd. All rights reserved.</p>
+ </footer>
+</body>
+</html>
